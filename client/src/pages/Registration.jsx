@@ -31,7 +31,6 @@ const Registration=()=>{
             // border:"1px solid #4ca1af",
           }}
         >
-          <h2 className="text-center mb-2">Login</h2>
           <Form>
             <Form.Group className="mb-3" controlId="formUsername" >
               <Form.Label className="fw-bold">Enter Name</Form.Label>
@@ -84,7 +83,7 @@ const Registration=()=>{
               }}
              onClick={handleSubmit}
             >
-              Login
+              Registration
             </Button>
           </Form>
         </Card>
