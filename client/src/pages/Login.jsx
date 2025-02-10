@@ -9,7 +9,7 @@ const Login=()=>{
 console.log(email,password)
 const handleSubmit=async()=>{
   try {
-    let api="http://localhost:8000/loginJWT/userlogin";
+    let api="https://jwt-mern-hkyo.onrender.com/loginJWT/userlogin";
     const response=await axios.post(api,{email:email,password:password});
    if(response.status==200)
    {

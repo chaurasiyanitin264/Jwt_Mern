@@ -11,7 +11,7 @@ const Registration=()=>{
     }
      const handleSubmit=async()=>{
         try {
-            let api="http://localhost:8000/loginJWT/registration";
+            let api="https://jwt-mern-hkyo.onrender.com/loginJWT/registration";
             const response=await axios.post(api,input);
             alert(response.data.msg)
         } catch (error) {
